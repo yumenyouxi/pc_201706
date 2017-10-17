@@ -1,0 +1,76 @@
+//*整体盒子*/
+.newss{
+	min-width: 1230px;
+}
+.newss .n-b>.active .line-l{
+ 	border-left: 2px solid #fff;
+	border-top: 2px solid #fff;		
+	width: 18px;
+	height: 18px;
+    position: relative;
+	left: 15px;
+	top: -6px;
+}
+.newss .n-b>.active .line-r{
+    border-right: 2px solid #fff;
+	border-bottom: 2px solid #fff;
+	width: 18px;
+	height: 18px;
+	position: relative;
+	left: -13px;
+	top: 13px;
+}
+/*新闻详情主体*/
+.newss .conter{
+	width: 900px;
+	margin:50px auto;
+	overflow: hidden;
+}
+.newss .conter>p{
+   text-align:center;
+   color: #364854;
+   font-size: 18px;
+   font-family:"微软雅黑";
+}
+.newss .conter-text{
+	font-size: 16px;
+	text-align: left;
+	text-indent: 2em;
+	color: #6f767b;
+    line-height: 36px;
+    
+}
+.newss .conter-img{
+    float: right;
+	width: 400px;
+	padding-left: 10px;
+	padding -bottom: 10px;
+	padding-top: 10px;
+}
+.newss .conter-img>p{
+	font-size: 12px;
+	padding-left:15px; 
+}
+
+.conter-img>img{
+	width: 100%;
+	height: auto;
+	display: block;
+}
+.newss .conter-ul{
+	width: 900px;
+	overflow: hidden;
+}
+.newss .conter-ul>li{
+	float: left;
+	font-size: 12px;
+	color: #3f3f3f;
+	width: 450px;
+	padding-left: 0px;
+}
+.newss .conter-ul>li:first-child{
+	text-align: left;
+}
+.newss .conter-ul>li:first-child+li{
+	text-align: right;
+}

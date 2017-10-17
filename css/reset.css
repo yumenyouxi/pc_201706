@@ -1,0 +1,276 @@
+body{
+	margin: 0 auto;
+	padding: 0;
+}
+
+h1,h2,h3,h4,h5,h6,p,input,textarea,img,ul,ol,li{
+	margin: 0;
+	padding: 0;
+}
+
+ul,ol,li{
+	list-style: none;
+}
+
+a,a:hover{
+	text-decoration: none;
+}
+
+input,textarea{
+	outline: none;
+}
+
+span,i{
+	display: inline-block;
+}
+img{
+	width: 100%;
+    height: auto;
+    display: block;
+}
+.fl{
+	float:left;
+}
+.fr{
+	float:right;
+}
+/*题头邮箱*/
+.header{
+	height: 40px;
+	background-color:#EAEEF1;
+}
+.information{
+    width: 900px;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+.information>.info-left{
+	font-size: 15px;
+	float: left;
+	color: #777879;
+	line-height: 40px;
+}
+.information>.info-left>.icon1{
+	width: 18px;
+	height: 18px;
+	background-color: #e4393c;
+	position: relative;
+	top: 4px;
+	background: url("../images/hc.png") no-repeat 0px 1px;
+}
+/*题头其他登录*/
+.info-right{
+	overflow: hidden;
+	float: right;
+	color: #777879;
+}
+.info-right>li{
+	font-size: 14px;
+	cursor: pointer;
+	float: left;
+	margin:3px 6px 3px 0;
+}
+.info-right i{
+	width: 30px;
+	height: 30px;
+	position: relative;
+}
+.info-right .icon2{
+	background: url("../images/hc.png") no-repeat -21px 4px;
+}
+.info-right .icon3{
+	background: url("../images/hc.png") no-repeat -56px 5px;
+}
+.info-right .icon4{
+	background: url("../images/hc.png") no-repeat -91px 4px;
+}
+/*题头搜索*/
+.search{
+	border: 1px solid #9D9FA0;
+	overflow: hidden;
+	width: 150px;
+	height: 24px;
+	margin:3px 0;
+}
+.info-right .icon5{
+	width: 20px;
+	height: 25px;
+	top: -1px;
+	float: right;
+	background: url("../images/hc.png") no-repeat -138px 5px;
+}
+.search>input{
+	width: 125px;
+	height: 24px;
+	border: none;
+	float: left;
+	padding-left: 3px;
+	background-color: #EAEEF1;
+}
+    /*导航 上*/
+.nav-t>.naving{
+	width: 900px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+/*导航-logo*/
+.logo{	
+	float: left;
+	margin:10px 0px 10px 0px;
+}
+.nav-t>.naving>.name{
+	float: left;
+	margin:10px 0px 10px 10px;
+	line-height: 78px;
+	font-size: 18px;
+	font-family: "楷体";
+}
+  /*导航-num*/
+.num{
+	float: right;
+	color:#2C393F;;
+	margin:28px 0px ;
+}
+
+.num>li{
+	height: 40px;
+	font-size: 12px;
+	cursor: pointer;
+	float: left;
+	margin-left: 15px;
+  }
+.num-span{
+	padding-top:4px; 
+
+}
+.naving>.num i.icon6{
+	width: 40px;
+	height: 40px;
+	background-color: #9D9FA0;
+	position: relative;
+	float: right;
+	background: url("../images/hc.png") no-repeat -163px 5px;
+}
+
+.num-big-span>span{
+	font-size: 30px;
+}
+/*导航 下*/
+.nav-b{
+	width: 100%;
+	background-color: #364854;	
+}
+.n-b{
+    width: 600px;
+    margin:0 auto;
+    overflow:hidden;
+}	
+.naving-b>ul span:hover>.line-l{
+    border-left: 2px solid #fff;
+    border-top: 2px solid #fff;		
+	width: 18px;
+	height: 18px;
+    position: relative;
+    left: 15px;
+	top: -6px;
+}
+.naving-b>ul span:hover>.line-r{
+	border-right: 2px solid #fff;
+	border-bottom: 2px solid #fff;
+	width: 18px;
+	height: 18px;
+	position: relative;
+	left: -13px;
+	top: 13px;
+}
+.n-b>li>span a{
+	color: #fff;
+}
+.n-b>li{
+	float: left;
+	font-size: 16px;
+	width: 120px;
+	line-height: 50px;
+	text-align: center;
+	cursor: pointer;
+}
+/*滚动页面*/
+.banner{
+	overflow: hidden;
+	position: relative;
+}
+.banner>.banner-show{
+	position: relative;
+	overflow: hidden;
+}
+.banner>.banner-show>li{
+	float: left;
+}
+.banner-show>li>img{
+	width: 100%;
+	height: auto;
+	display: block;
+}
+.banner>.point{
+	width: 240px;
+    height: 25px;
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: 0 auto;
+}
+.banner>.point>li{
+	float: left;
+	cursor: pointer;
+	margin:0 33px ;	
+	width:10px;
+    height:10px;
+    border:2px solid #fff;
+    border-radius:20px;
+}
+.banner>.point>.on{
+	background-color: #fff;
+}
+  /*公司首页结尾-页脚*/
+.jw-ds{
+	background-color: #2c393f;
+}
+
+.yj{
+	width: 900px;
+	margin :0 auto;
+	background-color: #2c393f;
+}
+.yj-ul{
+	overflow: hidden;
+	margin-left:180px;
+	padding-bottom: 20px;
+}
+.yj-ul>li{
+	float: left;
+	margin:20px 20px 0 20px;
+}
+.yj-ul>li>i{
+	width: 100px;
+	text-align:center;
+}
+.yj-ul>li>span{
+	font-size: 12px;
+	color: #fff;
+	text-align:center;
+}
+.yj-p0{
+	font-size: 20px;
+	color: #fff;
+	text-align: left;
+	font-family: "楷体","宋体","楷体_gb2312";
+	padding-bottom:28px;
+}
+.yj-p00{
+	font-size: 12px;
+	color: #fff;
+	text-align: left;
+}
+

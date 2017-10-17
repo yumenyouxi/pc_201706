@@ -1,0 +1,96 @@
+/*整体盒子*/
+.product{
+	min-width: 1230px;
+
+}
+.product .n-b>.active .line-l{
+ 	border-left: 2px solid #fff;
+	border-top: 2px solid #fff;		
+	width: 18px;
+	height: 18px;
+    position: relative;
+	left: 15px;
+	top: -6px;
+}
+.product .n-b>.active .line-r{
+    border-right: 2px solid #fff;
+	border-bottom: 2px solid #fff;
+	width: 18px;
+	height: 18px;
+	position: relative;
+	left: -13px;
+	top: 13px;
+}
+/*产品中心主体*/
+.product .conter{
+	width: 900px;
+	margin:0 auto;
+	overflow: hidden;
+}
+.product .conter>div{
+	overflow: hidden;
+	margin:50px 0;
+	width: 900px;
+}
+.product .conter>div>ul{
+	float: left;
+	width: 187.5px;
+	font-size:14px;
+}
+.product .conter-li-1{
+	width: 187.5px;
+	position: relative;
+}
+.product .conter-li-1>img{
+	width: 100%;
+	height: auto;
+	display: block;
+}
+..product .conter-li-2{
+     font-size: 13px;
+     color: #364854;
+}
+.product .conter-li-3{
+	font-size: 12px;
+	color: #7c8388;
+}
+.product .conter-top>ul>li{
+	line-height: 200%;
+}
+.product .conter-bottom>ul>li{
+	line-height: 200%;
+}
+.product .conter-ul{
+	margin-left: 50px;
+}
+.product .big-ul{
+	overflow: hidden;
+	width: 270px;
+	margin-bottom:50px;
+}
+.product .big-ul>li{
+	float: left;
+	font-size: 12px;
+	width: 38px;
+	border:1px solid #384b58;
+	margin-right: 5px;
+	text-align: center;
+}
+.product .conter-li-1>a{
+	width: 187.5px;
+	height: 319.5px;
+	background-color: rgba(0, 0,0, 0.45);
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	margin:auto;
+	cursor: pointer;
+	background-image:url(../images/CPZX_03.png);
+	background-size:100% 100%;
+    display: none;
+}
+.product .conter-li-1:hover>a{
+	display:block;
+}

@@ -1,0 +1,93 @@
+/*整体盒子*/
+.products{
+	min-width: 1230px;
+
+}
+.products .n-b>.active .line-l{
+ 	border-left: 2px solid #fff;
+	border-top: 2px solid #fff;		
+	width: 18px;
+	height: 18px;
+    position: relative;
+	left: 15px;
+	top: -6px;
+}
+.products .n-b>.active .line-r{
+    border-right: 2px solid #fff;
+	border-bottom: 2px solid #fff;
+	width: 18px;
+	height: 18px;
+	position: relative;
+	left: -13px;
+	top: 13px;
+}
+/*产品中心主体*/
+.products .conter{
+	width: 900px;
+	margin:50px auto;
+	
+}
+.products .conter-boy{
+	position: relative;
+	overflow: hidden;
+	margin-bottom:50px;
+}
+.products .conter-boy>div{
+	float: left;
+}
+.products .conter-left{
+	width: 460px;
+}
+.products .conter-left>img{
+	width: 100%;
+	height: auto;
+	display: block;
+}
+
+.conter-right{
+	width: 440px;
+    height:440px;
+    border-radius:440px;
+    background-color: #364854;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-right: 20px;
+    z-index: -1;
+}
+.products .conter-right>.conter-rihgt-text>p:nth-child(1){
+	font-size: 14px;
+	padding-bottom: 10px;
+}
+.products .conter-right>.conter-rihgt-text>p:nth-child(2){
+	font-size: 12px;
+}
+.products .conter-rihgt-text{
+	width: 220px;
+	height:280px;
+	color: #fff;
+	font-family: "微软雅黑";
+	position: absolute;
+	margin:auto;
+	left: 0px;
+	right: 0px;
+	top:0px;
+	bottom:0px;
+}
+.products .conter-ul{
+	width: 900px;
+	overflow: hidden;
+}
+.products .conter-ul>li{
+	float: left;
+	font-size: 12px;
+	color: #3f3f3f;
+	width: 450px;
+	padding-left: 0px;
+}
+.products .conter-ul>li:nth-child(1){
+	text-align: left;
+}
+.products .conter-ul>li:nth-child(2){
+	text-align: right;
+}

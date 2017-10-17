@@ -1,0 +1,102 @@
+/*整体盒子*/
+.contact{
+	min-width: 1230px;
+
+}
+.contact .n-b>.active .line-l{
+ 	border-left: 2px solid #fff;
+	border-top: 2px solid #fff;		
+	width: 18px;
+	height: 18px;
+    position: relative;
+	left: 15px;
+	top: -6px;
+}
+.contact .n-b>.active .line-r{
+    border-right: 2px solid #fff;
+	border-bottom: 2px solid #fff;
+	width: 18px;
+	height: 18px;
+	position: relative;
+	left: -13px;
+	top: 13px;
+}
+/*联系我们主体*/
+.contact .conter{
+	width: 900px;
+	margin:50px auto;
+	
+}
+..contact  conter-top{
+    overflow: hidden;
+    width: 900px;
+}
+.contact .conter-top-lfet{
+	float: left;
+		
+}
+.contact .conter-top-lfet>li{
+	font-size: 14px;
+	color: #364854;
+	margin-bottom:20px; 
+}
+.contact .conter-top-right>li{
+	font-size: 14px;
+	color: #364854;
+	text-align: right;
+	margin-bottom:20px; 
+	
+}
+.contact .conter-top-right>li:first-child+li+li+li{
+     margin-left:180px; 
+     margin-right: 180px;
+}
+.contact .conter-top-right>li:first-child+li+li{
+	position: relative;
+}
+.contact .conter-top-right>li:first-child+li+li>textarea{
+	resize: none;
+	width: 300px;
+	height:120px;
+}
+.contact .conter-top-right>li>span{
+	padding-right: 10px;
+}
+.contact .conter-top-right>li:first-child+li+li>span{
+	position: absolute; 
+    left: 121px;
+}
+.contact .conter-top-right>li:first-child>input{
+	width: 300px;
+	height: 20px;
+}
+.contact .conter-top-right>:first-child+li>input{
+	width: 300px;
+	height: 20px;
+}
+.contact .conter-top-right>li:first-child+li+li+li>input{
+	margin-right: 20px;
+	width: 40px;
+	height: 30px;
+    background-color: #e4e4e4;
+    color: #475660;
+    border: none;
+    cursor: pointer;
+}
+
+.contact .conter-top-right>li:first-child+li+li+li>input:active{
+	background-color: #aaa;
+}
+.contact .conter-top-right{
+	float: right;
+
+}
+.contact .conter-bottom{
+	width: 900px;
+	margin-top:20px;
+}
+.contact .conter-bottom>img{
+	width: 100%;
+	height: auto;
+	display: block;
+}

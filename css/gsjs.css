@@ -1,0 +1,59 @@
+/*整体盒子*/
+.gsjs{
+	min-width: 1230px;
+}
+.gsjs .n-b>.active .line-l{
+ 	border-left: 2px solid #fff;
+	border-top: 2px solid #fff;		
+	width: 18px;
+	height: 18px;
+    position: relative;
+	left: 15px;
+	top: -6px;
+}
+.gsjs .n-b>.active .line-r{
+    border-right: 2px solid #fff;
+	border-bottom: 2px solid #fff;
+	width: 18px;
+	height: 18px;
+	position: relative;
+	left: -13px;
+	top: 13px;
+}
+/*公司简介*/
+.gsjs .subject-body-t,.subject-body-b{
+	width: 900px;
+	overflow: hidden;
+	position: relative;
+	margin: 50px auto 50px auto;
+}
+.gsjs .subject-body-t-img,.subject-body-b-img{
+	width: 375px;
+	float: left;
+}
+.gsjs .subject-body-t-img>img{
+	width: 100%;
+	height: auto;
+	display: block;
+}
+.gsjs .subject-body-t-test,.subject-body-b-test{
+	width: 525px;
+	float: left;
+}
+.gsjs .subject-body-t-test>p{
+    font-size: 13px;
+    padding-left: 45px;
+    line-height: 200%;
+    text-indent: 2em;
+}
+.gsjs .subject-body-b-img>img{
+	width: 100%;
+	height: auto;
+	display: block;
+}
+.gsjs .subject-body-b-test>p{
+	font-size: 13px;
+    padding-right: 45px;
+    line-height: 200%;
+    text-indent: 2em;
+}
